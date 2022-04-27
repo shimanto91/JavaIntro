@@ -16,7 +16,7 @@ package Java_intro;
          ClassName objectName = new ClassName();
 
    >Calling an object:
-                      ObjectName.methodName();
+                      objectName.methodName();
  */
 
 public class ObjectIntro {
@@ -38,9 +38,17 @@ public class ObjectIntro {
         int sub = a - b;
         System.out.println("Sub is: " + sub);
     }
-    public static void mult(int a, int b){
+
+    protected static void mult(int a, int b){
         int mult = a * b;
         System.out.println("Mult is: " + mult);
+    }
+
+    protected void div(float a, float b){
+        float div = a / b;
+        System.out.println("Division is: " + div);
+
+        //if a and b are defined as int, then result does not show if floating value
     }
 }
 
@@ -57,5 +65,5 @@ public class ObjectIntro {
              Can not be called using object.
    - without 'static' is non-static, needs object to call the method.
 
- >If 'ObjectName.' is entered, names of all possible methods that can be called by object within that class popped up
+ >If 'objectName.' is entered, names of all possible methods that can be called by object within that class popped up
  */

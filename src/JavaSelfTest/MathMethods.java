@@ -18,7 +18,7 @@ public class MathMethods {
         double x12 = Math.toDegrees(3.1415);
         double x13 = Math.toRadians(180);
         double x14 = Math.sin(45);
-        double x15 = 1/4;
+        //double x15 = (1/4);
         double x16 = Math.pow(5, 10);
 
         System.out.println(x1);
@@ -35,7 +35,7 @@ public class MathMethods {
         System.out.println(x12);
         System.out.println(x13);
         System.out.println(x14);
-        System.out.println(x15);
+        //System.out.println(x15);
         System.out.println(x16);
     }
 }

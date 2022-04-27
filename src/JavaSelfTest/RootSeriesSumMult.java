@@ -2,10 +2,11 @@ package JavaSelfTest;
 
 import java.util.Scanner;
 
-public class RootSeriesSum {
+public class RootSeriesSumMult {
     public static void main(String[] args) {
         double sum = 0;
         double mult = 1;
+        double mult2 = 1;
         int max;
 
         Scanner sc = new Scanner(System.in);
@@ -19,8 +20,14 @@ public class RootSeriesSum {
         for (int i=1; i<=max; i++) {
             mult = mult * Math.sqrt(i);
         }
+
+        for (int i=1; i<=max; i++) {
+            mult2 = mult2 * Math.cbrt(i);
+        }
+
         System.out.println(sum);
         System.out.println(mult);
         System.out.println(Math.cbrt(27));
+        System.out.println(mult2);
     }
 }

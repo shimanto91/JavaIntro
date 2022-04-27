@@ -14,7 +14,7 @@ public class SqMultSeries {
         max = sc.nextInt();
 
         for (int i = 1; i <= max; i++) {
-            int x = i*i;
+            int x = i * i;
             mult = mult * x;
 
             if (i%2==0){
@@ -26,5 +26,6 @@ public class SqMultSeries {
         System.out.println(mult);
         System.out.println(multEven);
         System.out.println(multOdd);
-    }
+        }
 }
+

@@ -2,7 +2,7 @@ package JavaSelfTest;
 
 import java.util.Scanner;
 
-public class UserInputCube {
+public class UserInputCubeSum {
     public static void main(String[] args) {
         int max;
         int sum = 0;

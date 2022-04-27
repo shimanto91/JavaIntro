@@ -5,8 +5,8 @@ public class ObjCall1 {
         ObjCallPre myObj1 = new ObjCallPre();
         ObjCallPre myObj2 = new ObjCallPre();
 
-        myObj1.sum(20,10);
-        myObj2.sub(20,10);
+        myObj1.sum(40,10);
+        myObj2.sub(60,10);
     }
 }
 

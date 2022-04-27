@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class EvenOddSqSum {
     public static void main(String[] args) {
         int max;
-        int sumEven = 0;
-        int sumOdd = 0;
+        int sumSqEven = 0;
+        int sumSqOdd = 0;
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter maximum: ");
@@ -14,14 +14,15 @@ public class EvenOddSqSum {
 
         for (int i=1; i<=max; i++) {
             if(i%2==0) {
-                sumEven = sumEven + i*i;
+                sumSqEven = sumSqEven + i*i;
             }
             else {
-                sumOdd = sumOdd + i * i;
+                sumSqOdd = sumSqOdd + i*i;
             }
         }
-         System.out.println("Ëven number square series sum: " + sumEven);
-         System.out.println("Odd number square series sum: " + sumOdd);
+
+        System.out.println("Even number square series sum: " + sumSqEven);
+        System.out.println("Odd number square series sum: " + sumSqOdd);
     }
 }
 

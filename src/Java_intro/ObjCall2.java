@@ -8,8 +8,11 @@ package Java_intro;
 
 public class ObjCall2 extends ObjectIntro{
     public static void main(String[] args) {
-        sum2(20,10);
-        mult(20,10);
+        sum2(30,10);
+        mult(30,10);
+
+        ObjCall2 myObj3 = new ObjCall2();
+        myObj3.div(40,60);
     }
 }
 

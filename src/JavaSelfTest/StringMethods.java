@@ -30,6 +30,6 @@ public class StringMethods {
         System.out.println(str2.toLowerCase());
         System.out.println(str2.toUpperCase());
         System.out.println(str2.trim());
-        System.out.println(str2.valueOf("5")); //??
+        System.out.println(str2.valueOf("4")); //??
     }
 }
